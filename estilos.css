@@ -1,0 +1,96 @@
+body {
+color: white;
+background-color: #F7B6FA;
+font-family: Arial, "Times New Roman", Times, serif; }
+
+h1{
+color: green;
+font-family:serif;
+text-shadow: 0 3px black;}
+
+
+h3{
+color: #0075AC;
+text-align: center; }
+
+table{
+background-color: red;}
+
+th{
+background-color:#00ADFD; }
+
+p{
+font-family: Arial; 
+margin-bottom: 20px;}
+
+a {
+	width: 200px;
+	height:50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 2px solid black;
+	text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+  
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #3ead47;
+}
+.contenido {
+  padding-top: 100px;
+}
+
+#mifoto {	
+	height:400px;
+	width:200px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	border-top-left-radius:30px;
+	position:absolute;	
+	border:5px solid blue;
+	box-shadow: 0 5px black;
+	}
+
+#descripcion{
+margin-left: 21%;
+font-family: "comic sans";
+font-size: 30px;
+}
+	

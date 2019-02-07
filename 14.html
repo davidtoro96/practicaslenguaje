@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name=author content="David Toro">
+    <title>David Toro Martínez</title>	
+	<link rel="icon" type="image/png" href="media/favicon.png">
+	<link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+ <header>
+  <section class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de </a></li>
+                <li><a href="interes.html">Páginas de interés</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+            </ul>
+    </nav>
+    </section>
+</header>
+
+<section class="contenido wrapper">
+  <table>
+	<td><a href="13.html">Anterior</a></td>
+	<td><a href="index.html">Inicio</a></td>
+	<td><a href="15.html">Siguiente</a></td>
+</table>
+
+<h3>Rellena tu CV</h3>
+<form method="post">
+Nombre <br/>
+<input type="text" name="nombre"  size="20" maxlength="30" />
+<br/>
+Apellidos <br/>
+<input type="text" name="apellidos"  size="50" maxlength="80" />
+<br/>
+Contraseña <br/>
+<input type="password" name="contrasena"  maxlength="10" />
+<br/>
+DNI <br/>
+<input type="text" name="dni"  size="10" maxlength="9" />
+<br/>
+Sexo <br/>
+<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br/>
+<input type="radio" name="sexo" value="mujer" /> Mujer
+<br/><br/>
+Incluir mi foto <input type="file" name="foto" />
+<br/><br/>
+<input name="suscribir" type="checkbox" value="suscribir" checked="checked"/>
+Suscribirme al boletín de novedades
+<br/><br/>
+<input type="submit" name="enviar" value="Guardar cambios" />
+<input type="reset" name="clear" value="Borrar los datos introducidos" />
+</form>
+</section>
+</body>
+</html>

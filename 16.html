@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name=author content="David Toro">
+    <title>David Toro Martínez</title>	
+	<link rel="icon" type="image/png" href="media/favicon.png">
+	<link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+ <header>
+  <section class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de </a></li>
+                <li><a href="interes.html">Páginas de interés</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+            </ul>
+    </nav>
+    </section>
+</header>
+
+<section class="contenido wrapper">
+<table>
+	<td><a href="15.html">Anterior</a></td>
+	<td><a href="index.html">Inicio</a></td>
+	<td><a href="formularios complejos/formulariocomplejo1.html">Siguiente</a></td>
+</table>
+
+<h3>Información sobre el producto</h3>
+<form  method="post" >
+<fieldset>
+<legend>Datos básicos</legend>
+<label for="nombre">Nombre</label> <br/>
+<input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+<br/><br/>
+<label for="descripcion">Descripción</label> <br/>
+<textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+<br/><br/>
+Foto <input type="file" name="foto" />
+<br/><br/>
+<input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+</fieldset>
+<fieldset>
+<legend>Datos económicos</legend>
+<label for="precio">Precio</label>
+<input type="text" size="5" id="precio" name="precio" /> €
+&nbsp;&nbsp;&nbsp;
+<label for="impuestos">Impuestos</label>
+<select id="impuestos" name="impuestos">
+<option value="4">4%</option>
+<option value="7">7%</option>
+<option value="16">16%</option>
+<option value="25">25%</option>
+</select>
+<br/><br/>
+<label>Promoción</label> <br/>
+<input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno
+<br/>
+<input type="radio" name="promocion" value="portes" /> Transporte gratuito <br/>
+<input type="radio" name="promocion" value="descuento" /> Descuento 5%
+</fieldset>
+</form>
+</section>
+</body>
+</html>
