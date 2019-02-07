@@ -1,0 +1,41 @@
+body{
+background-color:#CEF0E8;
+width: 100%;
+}
+
+#navegacion{
+position: absolute;
+margin-top: 4%;  
+}
+
+#primerbloque{
+float: left;
+margin-left: 30%; 
+}
+
+h1,pre{
+color: #EE3EF7;
+font-family: Georgia, "Times New Roman",Times, serif;
+}
+
+hr{
+border-top-style: dotted;
+color: #EE3EF7;
+}
+
+ul{
+list-style-type: none;
+}
+
+li{
+background: white;
+margin: 0.5em 0;
+padding: 0.3em;
+padding-right: 2.5em;
+border-right: 1em solid black;
+}
+
+a{
+text-decoration: none;
+color:#EE3EF7;  
+}

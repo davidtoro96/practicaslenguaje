@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name=author content="David Toro">
+    <title>David Toro Martínez</title>	
+	<link rel="icon" type="image/png" href="media/favicon.png">
+	<link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+
+ <header>
+  <section class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de </a></li>
+                <li><a href="interes.html">Páginas de interés</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+            </ul>
+    </nav>
+    </section>
+</header>
+<section class="contenido wrapper">
+  <table>
+	<td><a href="videohtml.html">Anterior</a></td>
+	<td><a href="index.html">Inicio</a></td>
+	<td><a href="misitio.html">Siguiente</a></td>
+</table> <br>
+<h2 align="center"> Tablas </h2> <br><br>
+<p>Esta tabla tiene la primera fila como cabecera. Indica:</p>
+<ol>
+	<li>Número de etiquetas caption:1</li>
+	<li>Número de etiquetas tr:4</li>
+	<li>Número de etiquetas td:9</li>
+	<li>Número de etiquetas th:3</li>
+</ol>
+
+<p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_Actividades.png">
+
+
+<table border="1" id="tabla1">
+<caption>Actividades</caption>
+	<tr>
+		<th scope="col">Fecha</th>
+		<th scope="col">Evento</th>
+		<th scope="col">Dirección</th>
+	</tr>
+	<tr>
+		<td>12 Ene</td>
+		<td>Walrz with Strauss</td>
+		<td>Ayuntamiento</td>
+	</tr>
+	<tr>
+		<td>24 Mar</td>
+		<td>Beckman. Fihuras del exilio</td>
+		<td>Museo Nacional Thyssen-Bornemisza</td>
+	</tr>
+	<tr>
+		<td>24 Abr</td>
+		<td>The Wich</td>
+		<td>Ayntamiento</td>
+	</tr>
+</table>
+<p>A veces las celdas del encabezado abarcan varias columnas y/o filas. Se pueden usar varios
+elementos y atributos para definir la estructura y las relaciones de las celdas de encabezado y de
+datos. Por ejemplo, una celda de encabezado que abarca tres columnas debe asociarse con las celdas
+de datos correspondientes en el grupo de columnas. Esto se puede hacer estableciendo el atributo
+scope de la celda de encabezado al valor de colgroup. El mismo principio se aplica a las celdas de
+encabezado que abarcan varias filas. En este caso, están asociados con el uso del grupo de filas de
+valor en el atributo scope. De la siguiente tabla indica:</p>
+<ol>
+	<li>Agrupaciones realizadas con la etiqueta < colgroup span="2"> 3</li>
+	<li>Usos que se le da a la etiqueta < col> Indica cuantas col hay. Solo 1, al principio de la tabla.</li>
+	<li>Número de etiquetas < tbody> ¿Qué etiquetas quedarían fuera?</li>
+	<li>Número de etiquetas < th colspan="2" scope="colgroup"> 3</li>
+	<li>Número de etiquetas < th scope="row”> 2</li>
+	<li> Número de etiquetas < th scope="col"> 6</li>	
+</ol>
+ <p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_con_columnas_agrupadas.png">
+<br>
+<table border="1" id="tabla2">
+	<tr>
+		<td rowspan="2"></td>
+		<th colspan="2">Mars</th>
+		<th colspan="2">Venus</th>
+	</tr>
+	<tr>
+		<th scope="col">Produced</th>
+		<th scope="col">Sold</th>
+		<th scope="col">Produced</th>
+		<th scope="col">Sold</th>
+	</tr>
+	<tr>
+		<th scope="col">Teddy Bears</th>
+		<td>50.000</td>
+		<td>30.000</td>
+		<td>100.000</td>
+		<td>80.000</td>
+	</tr>
+	<tr>
+		<th scope="col">Board Games</th>
+		<td>10.000</td>
+		<td>5.000</td>
+		<td>12.000</td>
+		<td>9.000</td>
+	</tr>
+</table>
+<br>
+</table>
+<p>Esta tabla tiene la primera columna como cabecera. Indica:</p>
+<ol>
+	<li>Número de etiquetas caption: 1</li>
+	<li>Número de etiquetas th: 3</li>
+	<li>Número de etiquetas td: 9</li>
+</ol>
+
+<p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_Conciertos.png">
+
+<br/>
+
+<table border="1" id="tabla3">
+<caption><strong>Concerts:</strong></caption>	
+	<tr>
+		<th scope="col">Date</th>
+		<td>12 February</td>
+		<td>24 March</td>
+		<td>14 April</td>
+	</tr>
+	<tr>
+		<th scope="col">Event</th>
+		<td>Waltz with Strauss</td>
+		<td>The Obelisks</td>
+		<td>The What</td>
+	</tr>
+	<tr>
+		<th scope="col">Venue</th>
+		<td>Main Hall</td>
+		<td>West Wing</td>
+		<td>Main Hall</td>
+	</tr>
+</table><br>
+
+<p>La siguiente tabla tiene dos encabezados: en la primera fila y en la primera columna. Indica:</p>
+<ol>
+	<li>Número de etiquetas < th scope="col"> 5</li>
+	<li>Número de etiquetas < th scope="row"> 4</li>
+	<li>La siguiente tabla tiene una primera columna anterior a la cabecera vertical. Indica: < col> </li>
+
+</ol>
+<p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_delivery_slots.png">
+
+<table border="1" id="tabla4">
+	<tr>
+		<th scope="col"></th>
+		<th scope="col">Monday</th>
+		<th scope="col">Tuesday</th>
+		<th scope="col">Wednesday</th>
+		<th scope="col">Thursdat</th>
+		<th scope="col">Friday</th>
+	</tr>
+	<tr>
+		<th scope="col"> 9:00-11:00</th>
+		<td>Closed</td>
+		<td>Open</td>
+		<td>Open</td>
+		<td>Closed</td>
+		<td>Closed</td>
+	</tr>
+	<tr>
+		<th scope="col">11:00-13:00</th>
+		<td>Open</td>
+		<td>Open</td>
+		<td>Closed</td>
+		<td>Closed</td>
+		<td>Closed</td>
+	</tr>
+	<tr>
+		<th scope="col">13:00-15:00</th>
+		<td>Open</td>
+		<td>Open</td>
+		<td>Open</td>
+		<td>Closed</td>
+		<td>Closed</td>
+	</tr>
+	<tr>
+		<th scope="col">15:00-17:00</th>
+		<td>Closed</td>
+		<td>Closed</td>
+		<td>Closed</td>
+		<td>Open</td>
+		<td>Open</td>
+	</tr>
+
+	
+</table><br>
+<p>La siguiente tabla tiene una primera columna anterior a la cabecera vertical. Indica: </br>
+• Número de etiquetas < th scope="row”> 6</br>
+• Número de etiquetas < th scope="col”> 7</p>
+<p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_Holidays.png">
+
+<br/>
+
+<table border="1" id="tabla5"> 
+<caption>Holidays taken in the last six months</caption>
+	<tr>
+		<th scope="col">ID</th>
+		<th scope="col">Name</th>
+		<th scope="col">July</th>
+		<th scope="col">August</th>
+		<th scope="col">September</th>
+		<th scope="col">Ocotober</th>
+		<th scope="col">November</th>
+	</tr>
+	<tr>
+		<td>215</td>
+		<th>Abel</th>
+		<td>5</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>231</td>
+		<th>Annette</th>
+		<td>0</td>
+		<td>5</td>
+		<td>3</td>
+		<td>0</td>
+		<td>0</td>
+	</tr>	
+	<tr>
+		<td>173</td>
+		<th>Bernard</th>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>5</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>141</td>
+		<th>Gerard</th>
+		<td>0</td>
+		<td>10</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>99</td>
+		<th>Michael</th>
+		<td>8</td>
+		<td>8</td>
+		<td>8</td>
+		<td>8</td>
+		<td>0</td>
+	</tr>
+</table></br>
+<p>En la siguiente tabla los datos (nombre, apellido y ciudad) no se pueden distinguir unos de otros sin
+saber a qué encabezado corresponde cada uno. El atributo scope con el valor col define la
+dirección de las celdas de encabezado y las asocia con las celdas de datos correspondientes. El
+atributo scope también es necesario para tablas más grandes con una fila o columna de
+encabezado. Indica:</p>
+<ol>
+	<li>Numero de etiquetas < th scope="col">< th> 3</li>
+</ol>
+
+<p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_Teddy_bear_collectors.png">
+
+<table border="1"id="tabla6">
+<caption>Teddy bear collectors:</caption>
+	<tr>
+		<th scope="col">Last Name</th>
+		<th scope="col">First Name</th>
+		<th scope="col">City</th>
+	</tr>
+	<tr>
+		<td>Phoenix</td>
+		<td>Imari</td>
+		<td>Henry</td>
+	</tr>
+	<tr>
+		<td>Zeki</td>
+		<td>Rome</td>
+		<td>Min</td>
+	</tr>
+	<tr>
+		<td>Apirka</td>
+		<td>Kelly</td>
+		<td>Brynn</td>
+	</tr>
+
+
+</table><br>
+<h1>Tabla Poster name. Filas agrupadas</h1>
+<p>Reproduce la siguiente tabla con la primera columna como cabecera dividida. Recuerda que para
+agrupar cabeceras de filas hay que definir
+Un grupo de filas está definido por los elementos <thead>, <tfoot> y <tbody>.
+Los elementos <thead> y <tfoot> se pueden usar una vez en una tabla.
+Una tabla puede tener cualquier número de elementos <tbody> que cada uno define un grupo de
+filas. Indica: </p>
+<ul>
+<li> Número de etiquetas < tbody> 1</li>
+<li>  Número de etiquetas < thead> 1</li>
+<li> Número de etiquetas < tfoot> 1</li>
+<li>Agrupaciones realizadas con la etiqueta < colgroup span="2"> 1</li>
+<li>Usos que se le da a la etiqueta < col> indicar que hay columnas</li>
+<li>Número de etiquetas < th colspan="2" scope="colgroup"> </li>
+<li>Número de etiquetas< th rowspan="2" scope="rowgroup"></li>
+<li>Número de etiquetas < th scope="row”>3 </li>
+<li>Número de etiquetas < th scope="col”> 3</li>
+
+</ul>
+
+<img src="tabla.png">
+
+<table border="1" id="tabla7">
+	<col>
+	<tr>
+		<th scope="col">Poster Name</th>
+		<th scope="col">Color</th>
+		<th colspan=3>Sizes available</th>
+	</tr>
+		<tr>
+		<th rowspan="3">Zodiac</th>
+		<th scope="colgroup">Fullcolor</th>
+		<td scope="colgroup">A2</td>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A4</td>
+	</tr>
+	<tr>
+		<th scope="colgroup">Black and white</th>
+		<td scope="colgroup">A1</td>
+		<td scope="colgroup">A2</td>
+		<td scope="colgroup">A3</td>
+	</tr>
+		<tr>
+		<th scope="colgroup">Sepia</th>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A4</td>
+		<td scope="colgroup">A5</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Angels</th>
+		<th scope="rowgroup">Black and white</th>
+		<td scope="colgroup">A1</td>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A4</td>
+	</tr>
+	<tr>
+		<th scope="colgroup">Sepia</th>
+		<td scope="colgroup">A2</td>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A5</td>
+	</tr>
+</table><br>
+<h1>Tabla de ropa</h1>
+<p>De la siguiente tabla indica:</p>
+<ul>
+<li>Numero de etiquetas td: 14 </li>
+<li>Numero de etiquetas th: 5 </li>
+</ul>
+
+<img src="tabla8.png" id="tabla8">
+
+<table border="1">
+	<tr>
+		<th scope="col">Shirt</th>
+		<th scope="col">Size</th>
+		<th scope="col">Stock</th>
+	</tr>
+		<tr>
+		<th rowspan="3">Blue</th>
+		<td scope="rowgroup">S</th>
+		<td scope="colgroup">6</td>
+	</tr>
+	<tr>
+		<td scope="colgroup">M</td>
+		<td scope="colgroup">13</td>
+	</tr>
+		<tr>
+		<td scope="colgroup">XL</td>
+		<td scope="colgroup">A3</td>
+	</tr>
+	<tr>
+		<th rowspan="4">Red</th>
+		<td scope="rowgroup">M</td>
+		<td scope="colgroup">2</td>
+	</tr>
+		<tr>
+		<td scope="colgroup">L</td>
+		<td scope="colgroup">9</td>
+		</tr>
+		<tr>
+		<td scope="colgroup">XL</td>
+		<td scope="colgroup">10</td>
+		</tr>
+		<tr>
+		<td scope="colgroup">XXL</td>
+		<td scope="colgroup">1</td>
+		</tr>
+</table><br>
+<p> ¿Está correctamente
+diseñada?¿Has utilizado < br>? ¿Se ha cambiado el tamaño y la alineación de forma correcta? Sí </p>
+<img src="tabla9.png">
+<table border="1" id="tabla9">
+    <tbody>
+        <tr>
+            <th>fruit</th>
+            <th>Intructions</th>
+        </tr>
+       <tr>
+            <th>Apple<br>Orange</th>
+            <td>cut in half, remove core<br>remove peel, cut out segments</td>
+       </tr>
+       <tr style="background-color:black">
+           <td colspan="2"><br></td>
+       </tr>
+       <tr>
+           <th>Fruit</th>
+           <th>Intructions</th>
+       </tr>
+       <tr>
+           <th>Apple<br>Orange</th>
+           <td>cut in half, remove<br> core remove peel, cut out<br> segments </td>
+       </tr>
+      
+    </tbody>
+</table>
+
+</section>
+</body>
+</html>

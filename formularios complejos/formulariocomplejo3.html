@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>David Toro Martínez</title>
+	<link rel="icon" type="image/png" href="../media/favicon.png">
+	<link href="../estilos.css" rel="stylesheet">
+</head>
+<body>
+  <table>
+	<td><a href="formulariocomplejo2.html">Anterior</a></td>
+	<td><a href="../index.html">Inicio</a></td>
+	<td><a href="formulariocomplejoDNI.html">Siguiente</a></td>
+</table>
+<table border="1">
+        
+        <tr>
+            <th>Etiqueta o atributo</th>
+            <th>Descripción</th>
+        </tr>
+        
+        <tr>
+            <td>form</td>
+            <td>Creación de formulario</td>
+        </tr>
+        
+        <tr>
+            <td>input</td>
+            <td>Control interactivo y personalizado de formularios</td>
+        </tr>
+        
+        <tr>
+            <td>input type=""</td>
+            <td>Indica el tipo de input a utilizar</td>
+        </tr>
+        
+        <tr>
+            <td>input placeholder=""</td>
+            <td>Se usa como "consejo" de los datos a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input value=""</td>
+            <td>Se introduce un valor predeterminado al input</td>
+        </tr>
+        
+        <tr>
+            <td>input name=""</td>
+            <td>Se usa para valores internos y accesibilidad</td>
+        </tr>
+        
+        <tr>
+            <td>autofocus</td>
+            <td>Centra el formulario en dicho campo al entrar a la página</td>
+        </tr>
+        
+        <tr>
+            <td>input required</td>
+            <td>Campo obligatorio</td>
+        </tr>
+        
+        <tr>
+            <td>input min=""</td>
+            <td>Valor mínimo a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input max=""</td>
+            <td>Valor máximo a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input pattern=""</td>
+            <td>Patrón del input a introducir</td>
+        </tr>      
+        <tr>
+            <td>progress</td>
+            <td>Esta etiqueta se utiliza para visualizar el progreso de una tarea. </td>
+        </tr>
+        
+        <tr>
+            <td>meter</td>
+            <td>Con esta etiqueta se pretende representar mediante una barra un rango de valores. </td>
+        </tr>        
+    </table>
+<img src="formulario3.png">
+<form  method="post" >
+<fieldset>
+<h1>HTML5 forms example</h1>
+<label for="title">Title</label> <input type="text" name="title" placeholder="select one or enter your own" autofocus></br>
+<label for="name">Name</label> <input type="text" name="name" placeholder="John Doe"></br>
+<label for="number">Phone number</label> <input type="text" name="number" maxlength="9" placeholder="+1 32434263"/></br>
+<label for="email">Email address</label> <input type="text" name="email" value="" placeholder="foo@bar.com"/></br>
+<label for="website">Your website</label> <input type="text" name="website" placeholder="tusitio.com"/></br>
+<label for="items">Nr. of items to order</label> <input type="number" name="items" min="1" max="10" value="1"/></br>
+<label for="Length">Length</label> <input type="range" min="0" max="100" step="10" name="Length" value="0"/></br>
+<label for="fecha">Delivery date </label> <input type="date" name="fecha" min="2010-12-10" value="2010-12-10"><br>
+<label for="time">Time of delivery</label> <input type="time" name="time" step="30" ></br>
+<label for="color">Color of the item</label> <input type="color" name="color" value="#F90303" /></br>
+<input type="submit" name="enviar" value="enviar" />
+</fieldset>
+</form>
+</br>
+<fieldset>
+<label for="search">Search<input type="search" name="buscar" value=""/> <input type="submit" value="Go">
+</fieldset>
+<fieldset>
+<label for="Progress">Progress<progress value="22" max="100"></progress> </br>
+<label for="disk">Disk usage <meter value="22" max="100"></meter>&nbsp;<meter value="80" max="100"></meter>&nbsp;<meter value="89" max="100"></meter> 
+</fieldset>
+
+</html>

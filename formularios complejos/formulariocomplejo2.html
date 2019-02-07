@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>David Toro Martínez</title>
+	<link rel="icon" type="image/png" href="../media/favicon.png">
+	<link href="../estilos.css" rel="stylesheet">
+</head>
+<body>
+  <table>
+	<td><a href="formulariocomplejo1.html">Anterior</a></td>
+	<td><a href="../index.html">Inicio</a></td>
+	<td><a href="formulariocomplejo3.html">Siguiente</a></td>
+</table>
+<table border="1">
+        
+        <tr>
+            <th>Etiqueta o atributo</th>
+            <th>Descripción</th>
+        </tr>
+        
+        <tr>
+            <td>form</td>
+            <td>Creación de formulario</td>
+        </tr>
+        
+        <tr>
+            <td>input</td>
+            <td>Control interactivo y personalizado de formularios</td>
+        </tr>
+        
+        <tr>
+            <td>input type=""</td>
+            <td>Indica el tipo de input a utilizar</td>
+        </tr>
+        
+        <tr>
+            <td>input placeholder=""</td>
+            <td>Se usa como "consejo" de los datos a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input value=""</td>
+            <td>Se introduce un valor predeterminado al input</td>
+        </tr>
+        
+        <tr>
+            <td>input name=""</td>
+            <td>Se usa para valores internos y accesibilidad</td>
+        </tr>
+        
+        <tr>
+            <td>autofocus</td>
+            <td>Centra el formulario en dicho campo al entrar a la página</td>
+        </tr>
+        
+        <tr>
+            <td>input required</td>
+            <td>Campo obligatorio</td>
+        </tr>
+        
+        <tr>
+            <td>input min=""</td>
+            <td>Valor mínimo a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input max=""</td>
+            <td>Valor máximo a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input pattern=""</td>
+            <td>Patrón del input a introducir</td>
+        </tr>      
+    </table>
+<img src="formulario2.png"> </br>
+<form  method="post" >
+<fieldset>
+<label for="name"> Name</label> <input type="text" name="Name" autofocus>
+	<br/><br/>
+<label for="email">	Email: </label><input type="text" name="Email">
+	<br/><br/>
+<label for="url"> URL: </label><input type="text" name="username" id="username" placeholder="Write the url of your" size="20"  >
+	<br/><br/> 
+<label for="date"> Name	Date: </label><input type="Date" name="Date" value="">
+	<br/><br/>
+<label for="time"> Name	Time: </label><input type="Time" name="Time" value="">
+	<br/><br/>
+<label for="birth">Date and time of birth: </label><input type="Date" name="birth" value=""> <input type="Time" name="Time" value="" step="60"> 
+	<br/><br/>
+<label for="month">Month: </label><input type="Month" name="Month">
+	<br/><br/>
+<label for="week">Week: </label><input type="Week" name="Week">
+	<br/><br/>
+<label for="number">Number (min-10, max10): </label><input type="Number" name="" min="-10" max="10" step="1" value="0">
+	<br/><br/>
+<label for="range">Range (min0, max10): </label><input type="Range" name="" min="0" max="10" step="1" value="0" >
+	<br/><br/>
+<label for="telephone">Telephone: </label><input type="Telephone" name="Telephone" value="">
+	<br/><br/>
+<label for="search">Search term:</label><input type="file" name="search" value="">
+	<br/><br>
+<label for="colour">Favourite color: </label><input type="color" name="" value="#ff000">
+	<br/><br/>
+	<input type="submit" name="enviar" value="Submit">
+</fieldset>
+
+</html>

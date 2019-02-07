@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<meta charset="utf-8">
+	<title>David Toro Martínez</title>
+	<link href="../../estilos.css" rel="stylesheet">
+</head>
+<body>
+  <table>
+	<td><a href="../Tabla_Actividades/Tabla_Actividades.html">Anterior</a></td>
+	<td><a href="../../index.html">Inicio</a></td>
+	<td><a href="../Tabla_Conciertos/Tabla_Conciertos.html">Siguiente</a></td>
+</table>
+<p>A veces las celdas del encabezado abarcan varias columnas y/o filas. Se pueden usar varios
+elementos y atributos para definir la estructura y las relaciones de las celdas de encabezado y de
+datos. Por ejemplo, una celda de encabezado que abarca tres columnas debe asociarse con las celdas
+de datos correspondientes en el grupo de columnas. Esto se puede hacer estableciendo el atributo
+scope de la celda de encabezado al valor de colgroup. El mismo principio se aplica a las celdas de
+encabezado que abarcan varias filas. En este caso, están asociados con el uso del grupo de filas de
+valor en el atributo scope. De la siguiente tabla indica:</p>
+<ol>
+	<li>Agrupaciones realizadas con la etiqueta < colgroup span="2"> 3</li>
+	<li>Usos que se le da a la etiqueta < col> Indica cuantas col hay. Solo 1, al principio de la tabla.</li>
+	<li>Número de etiquetas < tbody> ¿Qué etiquetas quedarían fuera?</li>
+	<li>Número de etiquetas < th colspan="2" scope="colgroup"> 3</li>
+	<li>Número de etiquetas < th scope="row”> 2</li>
+	<li> Número de etiquetas < th scope="col"> 6</li>	
+</ol>
+ <p>A continuación se realizará la tabla de la siguiente imagen</p>
+<img src="Tabla_con_columnas_agrupadas.png">
+
+<table border="1">
+	<tr>
+		<th rowspan="2"></th>
+		<th colspan="2">Mars</th>
+		<th colspan="2">Venus</th>
+	</tr>
+	<tr>
+		<th scope="col">Produced</th>
+		<th scope="col">Sold</th>
+		<th scope="col">Produced</th>
+		<th scope="col">Sold</th>
+	</tr>
+	<tr>
+		<th scope="col">Teddy Bears</th>
+		<td>50.000</td>
+		<td>30.000</td>
+		<td>100.000</td>
+		<td>80.000</td>
+	</tr>
+	<tr>
+		<th scope="col">Board Games</th>
+		<td>10.000</td>
+		<td>5.000</td>
+		<td>12.000</td>
+		<td>9.000</td>
+	</tr>
+
+
+
+
+
+</table>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>David Toro Martínez</title>
+	<link rel="icon" type="image/png" href="../media/favicon.png">
+	<link href="../estilos.css" rel="stylesheet">
+</head>
+  <table>
+	<td><a href="formulariocomplejo3.html">Anterior</a></td>
+	<td><a href="../index.html">Inicio</a></td>
+	<td><a href="../audio.html">Siguiente</a></td>
+</table>
+<table border="1">
+        
+        <tr>
+            <th>Etiqueta o atributo</th>
+            <th>Descripción</th>
+        </tr>
+        
+        <tr>
+            <td>form</td>
+            <td>Creación de formulario</td>
+        </tr>
+        
+        <tr>
+            <td>input</td>
+            <td>Control interactivo y personalizado de formularios</td>
+        </tr>
+        
+        <tr>
+            <td>input type=""</td>
+            <td>Indica el tipo de input a utilizar</td>
+        </tr>
+        
+        <tr>
+            <td>input placeholder=""</td>
+            <td>Se usa como "consejo" de los datos a introducir</td>
+        </tr>
+        
+        <tr>
+            <td>input value=""</td>
+            <td>Se introduce un valor predeterminado al input</td>
+        </tr>
+        
+        <tr>
+            <td>input name=""</td>
+            <td>Se usa para valores internos y accesibilidad</td>
+        </tr>
+        
+        <tr>
+            <td>autofocus</td>
+            <td>Centra el formulario en dicho campo al entrar a la página</td>
+        </tr>      
+        <tr>
+            <td>input required</td>
+            <td>Campo obligatorio</td>
+        </tr>
+       
+    </table>
+<body>
+<img src="formulario4.png">
+<form  method="post" >
+<fieldset>
+<h1>Formulario con DNI</h1>
+<label for="nombre">Nombre:</label> <input type="text"  name="nombre" autofocus> </br>
+<label for="apellidos">Apellidos:</label> <input type="text"  name="apellidos"> </br>
+<label for="dni">DNI:</label> <input type="text" name="dni" size="10" pattern="(\d{8}([ -]?)([A-Za-z]))" required /> </br></br>
+<input type="submit" name="enviar" value="enviar" />
+</fieldset>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<meta charset="utf-8">
+	<title>David Toro Martínez</title>
+	<link href="../../estilos.css" rel="stylesheet">
+</head>
+<body>
+  <table>
+	<td><a href="../Tabla_Teddy_bear_collectors/tabla.html">Anterior</a></td>
+	<td><a href="../../index.html">Inicio</a></td>
+	<td><a href="../Tabla_8/tabla de ropa.html">Siguiente</a></td>
+</table>
+<h1>Tabla Poster name. Filas agrupadas</h1>
+<p>Reproduce la siguiente tabla con la primera columna como cabecera dividida. Recuerda que para
+agrupar cabeceras de filas hay que definir
+Un grupo de filas está definido por los elementos <thead>, <tfoot> y <tbody>.
+Los elementos <thead> y <tfoot> se pueden usar una vez en una tabla.
+Una tabla puede tener cualquier número de elementos <tbody> que cada uno define un grupo de
+filas. Indica: </p>
+<ul>
+<li> Número de etiquetas < tbody> 1</li>
+<li>  Número de etiquetas < thead> 1</li>
+<li> Número de etiquetas < tfoot> 1</li>
+<li>Agrupaciones realizadas con la etiqueta < colgroup span="2"> 1</li>
+<li>Usos que se le da a la etiqueta < col> indicar que hay columnas</li>
+<li>Número de etiquetas < th colspan="2" scope="colgroup"> </li>
+<li>Número de etiquetas< th rowspan="2" scope="rowgroup"></li>
+<li>Número de etiquetas < th scope="row”>3 </li>
+<li>Número de etiquetas < th scope="col”> 3</li>
+
+</ul>
+
+<img src="tabla.png">
+
+<table border="1">
+	<col>
+	<tr>
+		<th scope="col">Poster Name</th>
+		<th scope="col">Color</th>
+		<th colspan=3>Sizes available</th>
+	</tr>
+		<tr>
+		<th rowspan="3">Zodiac</th>
+		<th scope="colgroup">Fullcolor</th>
+		<td scope="colgroup">A2</td>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A4</td>
+	</tr>
+	<tr>
+		<th scope="colgroup">Black and white</th>
+		<td scope="colgroup">A1</td>
+		<td scope="colgroup">A2</td>
+		<td scope="colgroup">A3</td>
+	</tr>
+		<tr>
+		<th scope="colgroup">Sepia</th>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A4</td>
+		<td scope="colgroup">A5</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Angels</th>
+		<th scope="rowgroup">Black and white</th>
+		<td scope="colgroup">A1</td>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A4</td>
+	</tr>
+	<tr>
+		<th scope="colgroup">Sepia</th>
+		<td scope="colgroup">A2</td>
+		<td scope="colgroup">A3</td>
+		<td scope="colgroup">A5</td>
+	</tr>
+</table>
+
+</body>
+</html>

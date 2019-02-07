@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta author="David Toro">
+<title>David Toro</title>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="media/favicon.png">
+</head>
+<body>
+<h1>Canvas</h1>
+<canvas id="rojo" title="rojo"></canvas>
+<script type="text/javascript">
+{
+ let canvas = document.getElementById("rojo");
+ let contexto = canvas.getContext ("2d");
+ contexto.fillStyle = "#ff0000";
+ contexto.fillRect (0,0,150,150);
+ }
+ </script>
+<canvas id="azul" title="azul"></canvas>
+<script type="text/javascript">
+{
+ let canvas = document.getElementById("azul");
+ let contexto = canvas.getContext ("2d");
+ contexto.fillStyle = "#0101DF";
+ contexto.fillRect (0,0,75,75);
+ }
+ </script>
+ </br> </br>
+ <a href="index.html"> Volver al índice </a>
+ </body>
+</html>  

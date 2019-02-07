@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta author="David Toro">
+<title>David Toro</title>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="media/favicon.png">
+</head>
+<body>
+<h1>Formulario de reservas (formulario.html)</h1>
+<form method="get">
+<fieldset>
+<label for="nombre">Nombre:</label> <input type="text" name="nombre" required /></br>
+<label for="correo">Correo electrónico:</label><input type="text" name="correo" required /> </br>
+<label for="fecha">Fecha:</label><input type="date" name="fecha" min="12/4/2019" max="21/04/2019"/></br>
+<label for="hora">Hora de llegada:</label><input type="time" name="hora" step="3600" min="28800" max="72000"  /></br>
+<label for="noches">Número de noches:</label><input type="number" name="noches" min="1" step="1"/> </br>
+<label for="personas">Número de personas:</label><input type="number" name="personas" min="1" step="1"/> </br>
+<label for="edad">Edad:</label> </br> 
+<input type="radio" name="edad"><label for="20">Menos de 20</label> </br>
+<input type="radio" name="edad"><label for="20-40">Entre 20-40</label> </br>
+<input type="radio" name="edad"><label for="40">Más de 40</label> </br>
+<input type="submit" name="enviar" value="Solicitar reserva" />
+</fieldset>
+<a href="index.html"> Volver al índice </a>
+</form>
+</body>
+</html>
